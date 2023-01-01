@@ -1,0 +1,249 @@
+:root {
+  --first-title-color: #FFFFFF;
+  --first-btn-color: #FFFFFF;
+  --main-text-color: #434455;
+  --typical-lh: 1.5;
+  }
+
+/* busines */
+body{
+  font-family: "Roboto",sans-serif;
+  color: #000;
+  letter-spacing: 0.02em;
+  }
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
+/* ---------HEADER-------- */
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+font-family: 'Raleway',sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.header-logo-span {
+font-family: 'Raleway';
+font-weight: 800;
+font-size: 18px;
+line-height: 1.33;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #2E2F42;
+}
+.header-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: var(--typical-lh);
+  color: #2E2F42;
+}
+.header-link {
+  font-size: 16px;
+  line-height: var(--typical-lh);
+  color: var(--main-text-color);
+}
+.header-link:hover,
+.header-link:focus{
+ color: #4D5AE5; 
+}
+.header-tel {
+  font-size: 16px;
+  line-height: var(--typical-lh);
+  color: var(--main-text-color);
+}
+.header-tel:hover,
+.header-tel:focus{
+ color: #4D5AE5; 
+}
+/* ---------HERO-------- */
+.hero {
+}
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;  
+  color: var(--first-title-color);
+  background: #2E2F42;;
+}
+.hero-btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: var(--first-btn-color);
+  background-color: #4D5AE5;
+  cursor: pointer;
+}
+.hero-btn:hover,
+.hero-btn:focus{
+  background-color: #E7E9FC;
+}
+/* ---------PURPOSES-------- */
+.purposes {
+}
+.purposes-item .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2E2F42;
+}
+.purposes-item .texte {
+  font-weight: 400;
+  font-size: 16px;
+  line-height:var(--typical-lh);
+  color: var(--main-text-color);
+}
+/* ---------BUSSINES-------- */
+.bussines {
+}
+.bussines-title,.team-title {
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  text-transform: capitalize;
+  color: #2E2F42;
+}
+.bussines-foto {
+}
+/* ---------TEAM-------- */
+.team {
+}
+.team-list .title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  color: #2E2F42;
+}
+.team-foto {
+}
+.team-list .texte {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: var(--typical-lh);
+  text-align: center; 
+  color: var(--main-text-color);
+}
+/* ---------FOOTER-------- */
+.footer {
+}
+.footer-logo {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #4D5AE5;
+}
+.footer-logo-span {
+font-family: 'Raleway', sans-serif;
+font-weight: 800;
+font-size: 18px;
+line-height: 1.17;
+display: flex;
+align-items: center;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+color: #F4F4FD;
+}
+.footer-title {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: var(--typical-lh);
+  letter-spacing: 0.02em;
+  color: #E7E9FC;
+}
+/* portfolio */
+.header {
+}
+.header-navigation {
+}
+.header-logo {
+}
+.header-item {
+}
+.header-link,
+.header-tel {
+}
+.hero {
+}
+.hero-portfolio-btn .btn {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: var(--typical-lh);
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+color: #4D5AE5; 
+cursor: pointer;
+}
+.hero-portfolio-btn .btn:hover,
+.hero-portfolio-btn .btn:focus{
+  background-color: #4D5AE5;
+}
+.hero-portfolio-btn .btn-title {
+font-family: inherit;
+font-weight: 500;
+font-size: 16px;
+line-height: var(--typical-lh);
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.04em;
+cursor: pointer;
+background: #404BBF;
+color: #FFFFFF;
+}
+.hero-portfolio-btn .btn-title:hover,
+.hero-portfolio-btn .btn-title:focus{
+  background-color: #E7E9FC;
+}
+.hero-list {
+}
+.hero-item {
+}
+.hero-link {
+}
+.hero-link:hover,
+.hero-link:focus{
+}
+.cards {
+}
+.cards-list {
+}
+.cards-foto {
+}
+.cards-list .title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2E2F42;
+}
+.cards-list .texte {
+font-size: 16px;
+line-height: var(--typical-lh);
+letter-spacing: 0.02em;
+color: var(--main-text-color);
+}
+
