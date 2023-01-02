@@ -4,7 +4,25 @@
   --main-text-color: #434455;
   --typical-lh: 1.5;
   }
-
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  margin: 0;
+}
+ul{
+  margin: 0;
+}
+.container{
+ width: 1158px;
+ padding-left: 15px; 
+ padding-right: 15px;
+ outline: 1px solid red;
+ margin: 0 auto;
+}
 /* busines */
 body{
   font-family: "Roboto",sans-serif;
@@ -19,6 +37,8 @@ body{
 }
 /* ---------HEADER-------- */
 .header {
+  padding-top: 24px;
+  padding-left: 24px;
 }
 .header-navigation {
 }
@@ -72,6 +92,8 @@ color: #2E2F42;
 .hero {
 }
 .hero-title {
+  margin-top: 188px;
+  
   font-size: 56px;
   line-height: 1.07;
   text-align: center;  
@@ -79,6 +101,11 @@ color: #2E2F42;
   background: #2E2F42;;
 }
 .hero-btn {
+  padding: 16px 32px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+
   font-family: inherit;
   font-weight: 500;
   font-size: 16px;
@@ -95,14 +122,18 @@ color: #2E2F42;
 }
 /* ---------PURPOSES-------- */
 .purposes {
+  margin-top: 120px;
 }
 .purposes-item .title {
+  
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   color: #2E2F42;
 }
 .purposes-item .texte {
+  padding: 8 px;
+
   font-weight: 400;
   font-size: 16px;
   line-height:var(--typical-lh);
@@ -110,6 +141,7 @@ color: #2E2F42;
 }
 /* ---------BUSSINES-------- */
 .bussines {
+  margin-top: 120px;
 }
 .bussines-title,.team-title {
   font-weight: 500;
@@ -120,20 +152,32 @@ color: #2E2F42;
   color: #2E2F42;
 }
 .bussines-foto {
+  margin-top: 72px;
 }
 /* ---------TEAM-------- */
 .team {
+  margin-top: 120px;
+}
+.team-title{
+  margin-top: 120px;
+}
+.team-list{
+  margin-top: 72px;
 }
 .team-list .title {
+  margin-top: 32px;
+
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   text-align: center;
   color: #2E2F42;
 }
-.team-foto {
+.team-foto {  
 }
 .team-list .texte {
+  margin-top: 8px;
+
   font-weight: 400;
   font-size: 16px;
   line-height: var(--typical-lh);
@@ -142,6 +186,9 @@ color: #2E2F42;
 }
 /* ---------FOOTER-------- */
 .footer {
+  margin-top: 120px;
+  padding-top: 100px;
+  padding-left: 100px;
 }
 .footer-logo {
 font-family: 'Raleway', sans-serif;
@@ -185,8 +232,19 @@ color: #F4F4FD;
 .header-tel {
 }
 .hero {
+  margin-top: 96px;
 }
+.hero-portfolio-btn {
+  padding: 12px 24px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 4px;
+}
+
 .hero-portfolio-btn .btn {
+border: 1px solid #E7E9FC;
+
+
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
@@ -228,12 +286,15 @@ color: #FFFFFF;
 .hero-link:focus{
 }
 .cards {
+  margin-top: 72px;
 }
 .cards-list {
 }
 .cards-foto {
 }
 .cards-list .title {
+margin-top: 32px;
+
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
@@ -241,6 +302,8 @@ letter-spacing: 0.02em;
 color: #2E2F42;
 }
 .cards-list .texte {
+margin-top: 8px;
+
 font-size: 16px;
 line-height: var(--typical-lh);
 letter-spacing: 0.02em;
