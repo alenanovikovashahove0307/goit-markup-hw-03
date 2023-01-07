@@ -163,7 +163,16 @@ color: var(--main-h-color);
 }
 /* ---------PURPOSES-------- */
 .purposes {
-  
+}
+.purposes-list{
+  display: flex;
+}
+.purposes-item{
+  width: 264px;
+  margin-right: 24px;
+}
+.purposes-item:nth-child(4n) {
+  margin-right: 0px;
 }
 .purposes-item .title {
   margin-bottom: 8px;
@@ -181,7 +190,9 @@ color: var(--main-h-color);
 }
 /* ---------BUSSINES-------- */
 .bussines {
-  
+}
+.bussines-list{
+  display: flex;
 }
 .bussines-title,.team-title {
   margin-bottom: 72px;
@@ -194,7 +205,11 @@ color: var(--main-h-color);
   color: var(--main-h-color);
 }
 .bussines-foto {
-  
+  width: 360px;
+  margin-right: 24px;
+}
+.bussines-foto:nth-last-child(3n) {
+  margin-right: 0px;
 }
 /* ---------TEAM-------- */
 .team {
@@ -206,6 +221,7 @@ color: var(--main-h-color);
   
 }
 .team-list{
+  display: flex;
   
 }
 .team-list .title {
@@ -217,6 +233,14 @@ color: var(--main-h-color);
   text-align: center;
   color: var(--main-h-color);
 }
+.team-foto{
+  width: 264px;
+  margin-right: 24px;
+}
+.team-foto:nth-child(4n){
+  margin-right: 0px;
+}
+  
 .team-foto .foto { 
  margin-bottom: 32px; 
 }
@@ -288,8 +312,9 @@ color: var(--logo-span-footer);
 .cards {
   }
 .cards-btn {
+  
   margin-bottom: 72px;
-
+  
   padding: 12px 24px;
   display: inline-block;
   text-align: center;
@@ -297,6 +322,7 @@ color: var(--logo-span-footer);
 }
 
 .cards-btn .btn {
+  display: flex;
 border: 1px solid var(--footer-text-color);
 
 
@@ -313,32 +339,33 @@ cursor: pointer;
 }
 .cards-btn .btn:hover,
 .cards-btn .btn:focus{
-  background-color: var(--footer-text-color);
-}
-.cards-btn .btn-title {
-font-family: inherit;
-font-weight: 500;
-font-size: 16px;
-line-height: var(--typical-lh);
-display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: 0.04em;
-cursor: pointer;
-background: var(--present-btn);
-color: var(--first-btn-color);
-}
-.cards-btn .btn-title:hover,
-.cards-btn .btn-title:focus{
   background-color: var(--logo-color);
+  color: var(--first-btn-color);
 }
+
 .cards-list {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.cards-foto {
+  width: 360px;
+  margin-right: 24px;
+  margin-bottom: 48px;
+  
+}
+.cards-foto:nth-child(3n) {
+  margin-right: 0px;
+}
+.cards-foto:nth-last-child(-n+3){
+  margin-bottom: 0px;
 }
 .cards-foto .foto {
  margin-bottom: 32px;
 }
 .cards-list .title {
 margin-bottom: 8px;
+margin-right: 16px;
 
 font-weight: 500;
 font-size: 20px;
@@ -347,7 +374,7 @@ letter-spacing: 0.02em;
 color: var(--main-h-color);
 }
 .cards-list .texte {
-
+margin-right: 16px;
 
 font-size: 16px;
 line-height: var(--typical-lh);
