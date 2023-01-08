@@ -208,7 +208,7 @@ color: var(--main-h-color);
   width: 360px;
   margin-right: 24px;
 }
-.bussines-foto:nth-last-child(3n) {
+.bussines-foto:nth-child(3n) {
   margin-right: 0px;
 }
 /* ---------TEAM-------- */
@@ -310,27 +310,22 @@ color: var(--logo-span-footer);
 .header-tel {
 }
 .cards {
+  padding-top: 96px;
   }
 .cards-btn {
-  
-  margin-bottom: 72px;
-  
-  padding: 12px 24px;
-  display: inline-block;
-  text-align: center;
+  display: inline-flex;
   border-radius: 4px;
+  align-items: center;
 }
 
 .cards-btn .btn {
-  display: flex;
+  /* display: inline-block; */
 border: 1px solid var(--footer-text-color);
-
 
 font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: var(--typical-lh);
-align-items: center;
 text-align: center;
 letter-spacing: 0.04em;
 background-color: var(--logo-span-footer);
@@ -342,11 +337,15 @@ cursor: pointer;
   background-color: var(--logo-color);
   color: var(--first-btn-color);
 }
-
+.btn {
+  margin-left:24px;
+  margin-bottom: 72px;
+  padding: 12px 24px;
+}
 .cards-list {
   display: flex;
   flex-wrap: wrap;
-  
+  border-bottom: 1px solid var(--footer-text-color) ;
 }
 .cards-foto {
   width: 360px;
