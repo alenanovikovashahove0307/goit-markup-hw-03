@@ -1,3 +1,9 @@
+/* html{
+  box-sizing: border-box;
+}
+*,*::after,*::before{
+  box-sizing: inherit;
+} */
 :root {
   --first-btn-color: #FFFFFF;
   --main-text-color: #434455;
@@ -9,6 +15,12 @@
   --body-color: #434455;    
   --typical-lh: 1.5;
   }
+/* html{ 
+  box-sizing: border-box;
+}
+*,*::after,*::before{
+  box-sizing: inherit;
+}*/  
 p,
 h1,
 h2,
@@ -27,7 +39,7 @@ ul{
  padding-right: 15px;
  outline: 1px solid red;
  margin: 0 auto;
-}
+ }
 /* busines */
 body{
   font-family: "Roboto",sans-serif;
@@ -55,6 +67,11 @@ body{
 }
 
 .header-logo {
+padding-top: 24px;
+padding-bottom: 24px;
+margin-right: 76px;
+
+
 font-family: 'Raleway',sans-serif;
 font-weight: 800;
 font-size: 18px;
@@ -64,9 +81,10 @@ align-items: center;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--logo-color);
+
 }
 .header-logo-span {
-margin-right: 77px;
+
 
 font-family: 'Raleway';
 font-weight: 800;
@@ -130,7 +148,9 @@ color: var(--main-h-color);
 /* ---------HERO-------- */
 .hero {
   text-align: center;
-  background: var(--main-h-color);  
+  background: var(--main-h-color);
+  padding-top: 188px;
+  padding-bottom: 188px;  
 }
 .hero-title {
   margin-bottom: 48px;
@@ -161,8 +181,14 @@ color: var(--main-h-color);
 .hero-btn:focus{
   background-color: var(--present-btn);
 }
+.img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 /* ---------PURPOSES-------- */
 .purposes {
+  padding-top: 120px;
 }
 .purposes-list{
   display: flex;
@@ -190,6 +216,7 @@ color: var(--main-h-color);
 }
 /* ---------BUSSINES-------- */
 .bussines {
+  padding-top: 120px;
 }
 .bussines-list{
   display: flex;
@@ -240,12 +267,11 @@ color: var(--main-h-color);
 .team-foto:nth-child(4n){
   margin-right: 0px;
 }
-  
-.team-foto .foto { 
- margin-bottom: 32px; 
-}
 .team-foto .title {
  margin-bottom: 8px;
+}
+.team-abount{
+  padding: 32px 16px;
 }
 .team-list .texte {
   
@@ -258,6 +284,8 @@ color: var(--main-h-color);
 }
 /* ---------FOOTER-------- */
 .footer {
+  padding-top: 100px;
+  padding-bottom: 100px;
   
 
   background: var(--main-h-color);
@@ -289,8 +317,7 @@ text-transform: uppercase;
 color: var(--logo-span-footer);
 }
 .footer-title {
-  margin-bottom: 16px;
-
+  
   font-weight: 400;
   font-size: 16px;
   line-height: var(--typical-lh);
@@ -311,11 +338,17 @@ color: var(--logo-span-footer);
 }
 .cards {
   padding-top: 96px;
+  padding-bottom: 120px;
   }
 .cards-btn {
-  display: inline-flex;
+  display: flex;
   border-radius: 4px;
-  align-items: center;
+  justify-content: center;
+  margin-top: 0px;
+  margin-bottom: 72px;
+}
+.cards-btn:nth-child(1){
+  margin-right: 0px;
 }
 
 .cards-btn .btn {
@@ -339,13 +372,13 @@ cursor: pointer;
 }
 .btn {
   margin-left:24px;
-  margin-bottom: 72px;
   padding: 12px 24px;
 }
 .cards-list {
   display: flex;
   flex-wrap: wrap;
-  border-bottom: 1px solid var(--footer-text-color) ;
+  border: 1px solid var(--footer-text-color);
+  
 }
 .cards-foto {
   width: 360px;
@@ -359,12 +392,13 @@ cursor: pointer;
 .cards-foto:nth-last-child(-n+3){
   margin-bottom: 0px;
 }
-.cards-foto .foto {
- margin-bottom: 32px;
+.cards-abount{
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .cards-list .title {
 margin-bottom: 8px;
-margin-right: 16px;
+margin-left: 16px;
 
 font-weight: 500;
 font-size: 20px;
@@ -373,7 +407,7 @@ letter-spacing: 0.02em;
 color: var(--main-h-color);
 }
 .cards-list .texte {
-margin-right: 16px;
+margin-left: 16px;
 
 font-size: 16px;
 line-height: var(--typical-lh);
