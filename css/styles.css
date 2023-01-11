@@ -382,13 +382,13 @@ cursor: pointer;
 .cards-list {
   display: flex;
   flex-wrap: wrap;
-  border: 1px solid var(--footer-text-color);
+  
   
 }
 .cards-foto {
   width: 360px;
   margin-right: 24px;
-  margin-bottom: 48px;
+  /* margin-bottom: 48px; */
   
 }
 .cards-foto:nth-child(3n) {
@@ -400,6 +400,7 @@ cursor: pointer;
 .cards-abount{
   padding-top: 32px;
   padding-bottom: 32px;
+  border: 1px solid var(--footer-text-color);
 }
 .cards-list .title {
 margin-bottom: 8px;
