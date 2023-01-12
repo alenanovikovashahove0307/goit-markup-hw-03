@@ -150,14 +150,17 @@ color: var(--main-h-color);
 }
 /* ---------HERO-------- */
 .hero {
+  display: flex;
   text-align: center;
   background: var(--main-h-color);
   padding-top: 188px;
-  padding-bottom: 188px;  
+  padding-bottom: 188px;
+  align-items: center;  
 }
 .hero-title {
+  display: flex;
   margin-bottom: 48px;
-
+  
   font-size: 56px;
   line-height: 1.07;
   text-align: center;  
@@ -322,7 +325,7 @@ text-transform: uppercase;
 color: var(--logo-span-footer);
 }
 .footer-title {
-  
+  width: 264px;
   font-weight: 400;
   font-size: 16px;
   line-height: var(--typical-lh);
@@ -341,10 +344,10 @@ color: var(--logo-span-footer);
 .header-link,
 .header-tel {
 }
-.cards {
+.cards{
   padding-top: 96px;
   padding-bottom: 120px;
-  }
+}
 .cards-btn {
   display: flex;
   border-radius: 4px;
@@ -352,9 +355,7 @@ color: var(--logo-span-footer);
   margin-top: 0px;
   margin-bottom: 72px;
 }
-.cards-btn:nth-child(1){
-  margin-right: 0px;
-}
+
 
 .cards-btn .btn {
   /* display: inline-block; */
@@ -379,6 +380,9 @@ cursor: pointer;
   margin-left:24px;
   padding: 12px 24px;
 }
+.cards-btn .btn:first-child {
+  margin-left: 0px;
+}
 .cards-list {
   display: flex;
   flex-wrap: wrap;
@@ -400,11 +404,14 @@ cursor: pointer;
 .cards-abount{
   padding-top: 32px;
   padding-bottom: 32px;
+  padding-left: 16px;
   border: 1px solid var(--footer-text-color);
+  border-top: 0px;
+  
 }
 .cards-list .title {
 margin-bottom: 8px;
-margin-left: 16px;
+
 
 font-weight: 500;
 font-size: 20px;
@@ -413,7 +420,7 @@ letter-spacing: 0.02em;
 color: var(--main-h-color);
 }
 .cards-list .texte {
-margin-left: 16px;
+
 
 font-size: 16px;
 line-height: var(--typical-lh);
