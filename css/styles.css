@@ -155,7 +155,7 @@ color: var(--main-h-color);
   background: var(--main-h-color);
   padding-top: 188px;
   padding-bottom: 188px;
-  align-items: center;  
+  /* align-items: center;   */
 }
 .hero-title {
   width: 571px;
