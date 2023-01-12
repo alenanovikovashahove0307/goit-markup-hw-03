@@ -59,6 +59,7 @@ body{
 }
 /* ---------HEADER-------- */
 .header { 
+  border-bottom: 1px solid var(--main-text-color);
 }
 .main-nav{
   display: flex;
@@ -155,6 +156,7 @@ color: var(--main-h-color);
   background: var(--main-h-color);
   padding-top: 188px;
   padding-bottom: 188px;
+  
   /* align-items: center;   */
 }
 .hero-title {
@@ -225,6 +227,7 @@ color: var(--main-h-color);
 /* ---------BUSSINES-------- */
 .bussines {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .bussines-list{
   display: flex;
