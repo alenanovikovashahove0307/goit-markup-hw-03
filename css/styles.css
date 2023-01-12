@@ -158,7 +158,8 @@ color: var(--main-h-color);
   align-items: center;  
 }
 .hero-title {
-  display: flex;
+  width: 494px;
+  display: block;
   margin-bottom: 48px;
   
   font-size: 56px;
@@ -381,7 +382,7 @@ cursor: pointer;
   padding: 12px 24px;
 }
 .cards-btn .btn:first-child {
-  margin-left: 0px;
+  /* margin-left: 0px; */
 }
 .cards-list {
   display: flex;
